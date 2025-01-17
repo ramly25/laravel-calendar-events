@@ -66,6 +66,8 @@ class CalendarController extends Controller
                     $query->where('team1_id', $filter_team)->orWhere('team2_id', $filter_team);
                 });
             })
+            ->orderBy('league_id','ASC')
+            ->orderBy('game_date', 'ASC')
             ->get();
         return response()->json([
             'status' => 'ok',
