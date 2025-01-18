@@ -18,6 +18,22 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/zabuto.css" rel="stylesheet" />
+    <style>
+        .day {
+            width: 14%;
+            float: left;
+            position: relative;
+        }
+
+        .sec-live {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .head-cal {
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -61,6 +77,10 @@
         </div>
 
     </header>
+
+    <section class="container">
+        @livewire('Calendar')
+    </section>
     <!-- Footer-->
     <footer class="footer text-center" id="profile">
         <div class="container">
