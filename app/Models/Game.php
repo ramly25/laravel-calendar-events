@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Game extends Model
 {
     use HasFactory;
+    protected $fillable = ['vanue','game_date','league_id','team1_id','team2_id'];
 
     public function league()
     {
