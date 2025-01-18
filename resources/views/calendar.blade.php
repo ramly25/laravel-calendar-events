@@ -23,6 +23,7 @@
             width: 14%;
             float: left;
             position: relative;
+            margin-bottom: 10px;
         }
 
         .sec-live {

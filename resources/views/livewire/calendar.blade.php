@@ -21,7 +21,7 @@
     <div class="col-md-8 text-center m-10">
         <h5>{{ date('F Y', strtotime($year . '-' . $month . '-01')) }}</h5>
     </div>
-    <div class="col-md-2"><button class="btn btn-sm btn-outline-dark" wire:click="getMonth('next')">next</button></div></div>
+    <div class="col-md-2"><button class="btn btn-sm btn-outline-dark" wire:click="getMonth('next')">next</button></div></div><br>
         <div class="day head-cal">Sun</div>
         <div class="day head-cal">Mon</div>
         <div class="day head-cal">Tue</div>
