@@ -2,6 +2,10 @@
 
 This is a laravel based project. the fitur of this project is to display the calendar event for basket ball event. the calendar has some fitur such a show event based on month or date. the day which have event will show badge number count of how many event at that day. and you can click the day to show the list detail of the event at the day. the calendar also has fitur to filter event based on league or team selection. The project use plugin zabuto jquery calendar.
 
+# update features 
+
+the project right now build with livewire and filament for the CMS
+
 ## Getting started
 
 ### Launch the project
@@ -43,6 +47,12 @@ Run the following command to run seeding data to the database:
 
 ```
 php artisan db:seed
+```
+
+To use CMS dont forget to make user first with filament:
+
+```
+php artisan make:filament-user
 ```
 
 Then start your server:
